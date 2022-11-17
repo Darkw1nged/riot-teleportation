@@ -1,0 +1,28 @@
+name: RiotTeleportation
+version: '${project.version}'
+main: me.darkwinged.RiotTeleportation.Main
+api-version: 1.18
+authors: [ darkwinged ]
+depend: [ Vault ]
+commands:
+  randomteleport:
+    aliases:
+      - rtp
+      - wild
+    description: Allows players to a random point in the world
+  teleportask:
+    aliases:
+      - tpa
+    description: Allows players to a teleport to each other
+  teleportcancel:
+    aliases:
+      - tpacancel
+    description: Allows players to a cancel teleport request
+  teleportaccept:
+    aliases:
+      - tpaccept
+    description: Allows players to a accept teleport request
+  teleportdeny:
+    aliases:
+      - tpadeny
+    description: Allows players to a deny teleport request
